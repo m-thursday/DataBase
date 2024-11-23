@@ -1,0 +1,337 @@
+
+Welcome to your very own Bizzare Adventure, so Go Ahead Mr.Joestar
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter database name: 
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter database name: Database created.
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: No Database open
+Failed to read record or record does not exist.
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter database name to open: Database opened successfully.
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: ID: 2 first Name: Cumings Last Name: John Bradley Age: 38 Ticket Num: PC 17599 Fare: 71.3 Purchase Date: 1/11/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: ID: 3 first Name: Heikkinen Last Name: Laina Age: 26 Ticket Num: STON/O2. 3101282 Fare: 7.9 Purchase Date: 1/22/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: ID: 16 first Name: Hewlett Last Name: Mary Age: 55 Ticket Num: 248706 Fare: 16 Purchase Date: 1/20/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: ID: 20 first Name: Masselmani Last Name: Fatima Age: 55 Ticket Num: 2649 Fare: 7.2 Purchase Date: 2/20/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: Could not get record -1
+Failed to read record or record does not exist.
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to update: ID: 2 first Name: Cumings Last Name: John Bradley Age: 38 Ticket Num: PC 17599 Fare: 71.3 Purchase Date: 1/11/1912
+
+What field do you want to change? Type the number.
+1) Update first name
+2) Update last name
+3) Update age
+4) Update ticket number
+5) Update fare
+6) Update purchase date
+>>> Enter in the new updated age: ID: 2 first Name: Cumings Last Name: John Bradley Age: 34 Ticket Num: PC 17599 Fare: 71.3 Purchase Date: 1/11/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to update: ID: 20 first Name: Masselmani Last Name: Fatima Age: 55 Ticket Num: 2649 Fare: 7.2 Purchase Date: 2/20/1912
+
+What field do you want to change? Type the number.
+1) Update first name
+2) Update last name
+3) Update age
+4) Update ticket number
+5) Update fare
+6) Update purchase date
+>>> Enter in the new updated date of purchase: ID: 20 first Name: Masselmani Last Name: Fatima Age: 55 Ticket Num: 2649 Fare: 7.2 Purchase Date: 1/20/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to update: Record deleted
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: Failed to read record or record does not exist.
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to update: Record deleted
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: Failed to read record or record does not exist.
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to update: 
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: ID: 3 first Name: Heikkinen Last Name: Laina Age: 26 Ticket Num: STON/O2. 3101282 Fare: 7.9 Purchase Date: 1/22/1912
+ID: 4 first Name: Futrelle Last Name: Jacques Heath Age: 35 Ticket Num: 113803 Fare: 53.1 Purchase Date: 3/23/1912
+ID: 9 first Name: Johnson Last Name: Oscar W Age: 27 Ticket Num: 347742 Fare: 11.1 Purchase Date: 3/2/1912
+ID: 10 first Name: Nasser Last Name: Nicholas Age: 14 Ticket Num: 237736 Fare: 30.1 Purchase Date: 2/21/1912
+ID: 11 first Name: Sandstrom Last Name: Marguerite Rut Age: 4 Ticket Num: PP 9549 Fare: 16.7 Purchase Date: 2/20/1912
+ID: 16 first Name: Hewlett Last Name: Mary Age: 55 Ticket Num: 248706 Fare: 16 Purchase Date: 1/20/1912
+ID: 18 first Name: Williams Last Name: Charles Eugene Age: 55 Ticket Num: 244373 Fare: 13 Purchase Date: 1/22/1912
+ID: 20 first Name: Masselmani Last Name: Fatima Age: 55 Ticket Num: 2649 Fare: 7.2 Purchase Date: 1/20/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter the ID you wish to add: Enter First Name: Enter Last Name: Enter Age: Enter Ticket Number: Enter Fare: Enter Date of Purchase: Record Added
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: ID: 100 first Name: Sam Last Name: Gauch Age: 44 Ticket Num: PA 1012 Fare: 43.33 Purchase Date: 2/5/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to update: ID: 3 first Name: Heikkinen Last Name: Laina Age: 26 Ticket Num: STON/O2. 3101282 Fare: 7.9 Purchase Date: 1/22/1912
+
+What field do you want to change? Type the number.
+1) Update first name
+2) Update last name
+3) Update age
+4) Update ticket number
+5) Update fare
+6) Update purchase date
+>>> Input failed try again
+>>> Enter in the new updated fare: ID: 3 first Name: Heikkinen Last Name: Laina Age: 26 Ticket Num: STON/O2. 3101282 Fare: 100 Purchase Date: 1/22/1912
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Database closed.
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Enter in the primary key to display: Could not get record 2
+Failed to read record or record does not exist.
+
+
+1) Create new database
+2) Open database
+3) Close database
+4) Read record
+5) Display record
+6) Update record
+7) Create report
+8) Add record
+9) Delete record
+10) Quit
+Please make your selection: Exiting program.

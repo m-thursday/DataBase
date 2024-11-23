@@ -1,0 +1,107 @@
+Script started on 2024-02-06 20:32:49-06:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="101" LINES="27"]
+[?2004h]0;max@max-envy-linux: ~/Desktop/Homework/DB_hw1[01;32mmax@max-envy-linux[00m:[01;34m~/Desktop/Homework/DB_hw1[00m$ g++ -Wall DB.cpp DB.h main.cpp -o hw1.exe
+[?2004l[?2004h]0;max@max-envy-linux: ~/Desktop/Homework/DB_hw1[01;32mmax@max-envy-linux[00m:[01;34m~/Desktop/Homework/DB_hw1[00m$ ./hw1.exe
+[?2004l
+
+-------Options-------
+1. Create Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit
+
+choose an option please
+>>>  1
+Option 1: create database
+what file would you like to use?
+>>>   titanic
+
+
+-------Options-------
+1. Create Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit
+
+choose an option please
+>>>  2
+Option 2: open database 
+What database would you like to open?
+>>>   titanic
+
+
+-------Options-------
+1. Create Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit
+
+choose an option please
+>>>  2
+Option 2: open database 
+What database would you like to open?
+>>>   titanic
+Database already open, please close and try again
+
+
+-------Options-------
+1. Create Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit
+
+choose an option please
+>>>  3
+Option 3: close database
+
+
+-------Options-------
+1. Create Database
+2. Open Database
+3. Close Database
+4. Display Record
+5. Update Record
+6. Create Report
+7. Add Record
+8. Delete Record
+9. Quit
+
+choose an option please
+>>>  9
+
+------------- Testing readRecord ------------
+recordNum: 0, Id: 2, Last Name: Cumings, First Name: John Bradley, Age: 38, Ticket Number:PC 17599, Fare: 71.3, Date of Purchase:1/11/1912
+
+recordNum: 19, Id: NA, Last Name: NA, First Name: NA, Age: NA, Ticket Number:NA, Fare: NA, Date of Purchase:NA
+
+recordNum: 6, Id: 9, Last Name: Johnson, First Name: Oscar W, Age: 27, Ticket Number:347742, Fare: 11.1, Date of Purchase:3/2/1912
+
+Record -1 out of range.
+Could not get record -1.
+
+Record 1000 out of range.
+Could not get record 1000.
+
+[?2004h]0;max@max-envy-linux: ~/Desktop/Homework/DB_hw1[01;32mmax@max-envy-linux[00m:[01;34m~/Desktop/Homework/DB_hw1[00m$ exit
+[?2004lexit
+
+Script done on 2024-02-06 20:33:53-06:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,73 @@
+show tables;
+--------------------------------------------------------------------------------
+
+desc Dish;
+
+desc FoodOrder;
+
+desc MenuItem;
+
+desc Restaurant;
+--------------------------------------------------------------------------------
+
+show create table Dish;
+
+show create table FoodOrder;
+
+show create table MenuItem;
+
+show create table Restaurant;
+--------------------------------------------------------------------------------
+
+SELECT COLUMN_NAME, CONSTRAINT_NAME, REFERENCED_COLUMN_NAME, REFERENCED_TABLE_NAME
+FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE REFERENCED_COLUMN_NAME IS NOT NULL AND CONSTRAINT_SCHEMA = 'mathursb'; 
+------------------------------------
+
+select* from Dish;
+
+select* from FoodOrder;
+
+select* from MenuItem;
+
+select* from Restaurant;
+--------------------------------------------------------------------------------
+	
+	(Queries)
+1) Find and print the restaurant name and city for all restaurants serving Salad.
+
+	select restaurantName, city
+	from Restaurant, Dish, MenuItem
+	where dishName = 'Salad' AND Dish.dishNo = MenuItem.dishNo AND restaurantID = restaurantNo;
+
+2) Find all menu items served by Asian restaurants, sorted by price. Output the dish name, restaurant name, and price.
+
+	select dishName, restaurantName, city, price
+	from Dish, MenuItem, Restaurant
+	where Restaurant.type = 'Asian' AND Dish.dishNo = MenuItem.dishNo AND restaurantID = restaurantNo
+	order by price; 
+
+3) Find and print the total number of menu items and the average price of the menu items for each restaurant.
+
+	select Count(itemNo) as totalItems, Avg(price) as averagePrice, restaurantID, restaurantName
+	from MenuItem, Restaurant
+	where restaurantNo = restaurantID
+	group by restaurantID;
+	
+
+4) Find and print the total price of all orders placed for Eureka Pizza, assuming a 10% tax rate. Include the number of orders, the average base price of each order (without tax), the total base price of all orders (without tax), and total price (with tax) in the result. Note: There should be only 1 tuple in the result.
+
+	select Count(orderNo) as numOrders, avg(price) baseAvg, sum(price) as baseTotal, sum(price) * 1.1 as taxTotal
+	from FoodOrder, MenuItem
+	where FoodOrder.itemNo = MenuItem.itemNo
+	and MenuItem.restaurantNo = 3;
+
+5) Find and print the total price of all orders placed in March, assuming a 10% tax rate. Include the number of orders, the average base price of each order (without tax), the total base price of all orders (without tax), and total price (with tax) in the result. Note: There should be only 1 tuple in the result. 
+
+	select Count(orderNo) as numOrders, avg(price) as baseAvg, sum(price) as baseTotal, sum(price) * 1.1 as taxxedTotal
+	from FoodOrder, MenuItem
+	where FoodOrder.itemNo = MenuItem.itemNo
+	and FoodOrder.date >= '2024-03-01'
+	and FoodOrder.date < '2024-04-01';
+	
+
